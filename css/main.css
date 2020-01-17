@@ -844,18 +844,20 @@ ul.social-icons li {
 }
 #team {
   margin: 50px 0;
+  /* border-radius:20px； */
 }
 .team-member {
   margin-top: 30px;
 }
 .team-member:hover .team-img img {
-  opacity: .8;
+  opacity: .9;
 }
+.team-img img{border-radius:20px} 
 .team-member .team-img {
   position: relative;
 }
 .team-member .team-img .team-pic {
-  width: 100%;
+  width: 60%;
 }
 .team-member .team_designation {
   font-size: 13px;
